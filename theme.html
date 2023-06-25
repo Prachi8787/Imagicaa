@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Imagicaa! Theme Park</title>
+
+	<link rel="stylesheet" type="text/css" href="css/theme.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+<header>
+	<nav>
+		<div class="logo"> <h1 class=""> Welcome To Imagicaa ! </h1></div>
+		<div class="menu">
+			<a href="D:\SEMINAR II\index.html">Home</a>
+			<a href="D:\SEMINAR II\theme.html">Theme Park</a>
+			<a href="D:\SEMINAR II\water.html">Water Park</a>
+			<a href="D:\SEMINAR II\more.html">More</a>
+		</div>	
+	</nav>
+	
+	<div class="theme_info">
+		<h1 class="mainheading1">Imagicaa Amusement Theme Park</h1>
+		<h2 class="subheading1">Unique indoor & outdoor rides & shows make this India's favourite themed entertainment destination.</h2>
+		<p class="content1">The perfect destination for friends and family.
+		With thrilling indoor and outdoor roller coasters, several of India's first thematic shows &
+		attractions, a Grand Imagicaa Parade, and more, Imagicaa Theme Park has it all.</p>
+	</div>	
+
+	<div class="slideshow-container">
+
+	<div class="mySlides fade">
+  			<img src="Images/ThemePark/Nitro.jpg" style="width:100%">
+  		<div class="text"><h3 style="font-size: 40px;"><b>Nitro</b></h3></div>
+	</div>
+
+	<div class="mySlides fade">
+ 			 <img src="Images/ThemePark/Screammachine.jpg" style="width:100%">
+  		<div class="text"><h3 style="font-size: 40px;"><b>Scream Machine</b></h3></div>
+	</div>
+
+	<div class="mySlides fade">
+ 			 <img src="Images/ThemePark/dare2drop.jpg" style="width:100%">
+  		<div class="text"><h3 style="font-size: 40px;"><b>Dare 2 Drop</b></h3></div>
+	</div>
+
+	<div class="mySlides fade">
+  			<img src="Images/ThemePark/deepspace.jpg" style="width:100%">
+  		<div class="text"><h3 style="font-size: 40px;"><b>Deep Space</b></h3></div>
+	</div>
+
+	<div class="mySlides fade">
+  			<img src="Images/ThemePark/Alibaba.jpg" style="width:100%">
+  		<div class="text"><h3 style="font-size: 40px;"><b>Alibaba</b></h3></div>
+	</div>
+
+	<div class="mySlides fade">
+  			<img src="Images/ThemePark/Salimgarh.jpg" style="width:100%">
+  		<div class="text"><h3 style="font-size: 40px;"><b>Salimgarh</b></h3></div>
+	</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+</div>
+
+</header>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() 
+{
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) 
+  {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+<div class="FamilyRides">
+		<h1 class="mainheading2">Family Rides</h1><hr>
+		<h2 class="subheading2">Attractions and shows for the entire family.</h2>
+		<p class="content2">To paraphrase an old adage, the family that experiences family rides together stays together! An experience of a lifetime holds in store for each and every member of the family.</p>
+	</div>	
+
+	
+
+	<div class="imagegrid">
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/MamboChaiChama.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Mambo Chai Chama</h2>		
+			</div>
+		</div>
+	
+	
+		<div class="gridContent">
+			<img src="Images/ThemePark/MrIndia.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Mr. India</h2>		
+			</div>
+		</div>
+	
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/SplashAhoy.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Splash Ahoy</h2>		
+			</div>
+		</div>
+
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/SavePirate.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Save Pirate</h2>		
+			</div>
+		</div>
+
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/Rajasaurus.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Rajasaurus</h2>		
+			</div>
+		</div>
+	
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/IforIndia.jpg" alt="image">
+			<div class="imgtext">
+				<h2>I for India</h2>		
+			</div>
+		</div>
+
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/BowWowShow.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Bow Wow Show</h2>		
+			</div>
+		</div>
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/Cinema.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Cinema 360</h2>		
+			</div>
+		</div>
+
+		
+		<div class="gridContent">
+			<img src="Images/ThemePark/MotionBox.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Motion Box Theatre</h2>		
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="KidRides">
+		<h1 class="mainheading2">Kids' Rides</h1><hr>
+		<h2 class="subheading2">Attractions designed for our younger guests.</h2>
+		<p class="content2">Let memories unfold the story of your childhood while you witness your little ones having a gala of a time. Kids' attractions at the best amusement park for kids Imagicaa offer joyful rides for every kid in town..</p>
+	</div>	
+
+	
+
+	<div class="imagegrid">
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/Happywheelss.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Happywheelss</h2>		
+			</div>
+		</div>
+	
+	
+		<div class="gridContent">
+			<img src="Images/ThemePark/Humptysfall.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Humpty's Fall</h2>		
+			</div>
+		</div>
+	
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/Tubbbytakesoff.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Tubbby Takes Off</h2>		
+			</div>
+		</div>
+
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/wagonoowheel.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Wagaon-O-O-Wheel</h2>		
+			</div>
+		</div>
+
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/Lochness.jpg" alt="image">
+			<div class="imgtext">
+				<h2>Loch Ness Explorers</h2>		
+			</div>
+		</div>
+	
+
+		<div class="gridContent">
+			<img src="Images/ThemePark/Magiccarousel.jpg" alt="image">
+			<div class="imgtext">
+				<h2>The Magic Carousel</h2>		
+			</div>
+		</div>
+	</div>
+</body>
+
+
+<footer>
+	<div class="container3">
+		<div class="sec abtimg">
+			<h2>IMAGICAA</h2>
+			<p><b>India's Favourite Entertainment Destination</b></p>
+			<ul>
+					<li><a href="D:\SEMINAR II\index.html">Home</a></li>
+				    <li><a href="D:\SEMINAR II\theme.html">Theme Park</a></li>
+				    <li><a href="D:\SEMINAR II\snow.html">Snow Park</a></li>
+					<li><a href="D:\SEMINAR II\water.html">Water Park</a></li>
+					<li><a href="D:\SEMINAR II\more.html">Tickets</a></li>
+			</ul>
+			<ul class ="sci">
+				<li><a href="https://www.facebook.com/imagicaaworld/"><i class="fa-brands fa-square-facebook"></i></a></li>
+				<li><a href="https://www.instagram.com/imagicaaworld/?hl=en"><i class="fa-brands fa-square-instagram"></i></a></li>
+				<li><a href="https://twitter.com/imagicaaworld"><i class="fa-brands fa-twitter"></i></a></li>
+				<li><a href="https://www.youtube.com/channel/UC6pnu2i9NTLbJSpN3CgB4eg"><i class="fa-brands fa-youtube"></i></a></li>
+			</ul>
+		</div>
+
+		<div class="sec quicklinks">
+			<h2>Support</h2>
+			<ul>
+				<li><a href="D:\SEMINAR II\FAQ.html">FAQ</i></a></li>
+			    <li><a href="#">Privacy Policy</i></a></li>
+				<li><a href="#">Help</i></a></li>
+			</ul>
+		</div>
+
+		<div class="sec contact">
+			<h2>Contact Us</h2>
+			<ul class="info">
+
+				<li>
+					<span><i class="fa-solid fa-location-dot"></i></span><p>30/31, State Highway 92 near Lonavala,Sangdewadi,Khopoli,Maharashtra 410203</p>
+				</li>
+				
+				<li>
+					<span><i class="fa-solid fa-phone"></i></span><p><a href="tel:+91 12345 67890"></a>+91 12345 67890</p>
+				</li>
+
+				<li>
+					<span><i class="fa-solid fa-envelope"></i></span><p><a href="mailto:knowimagica@gmail.com"></a>knowimagica@gmail.com</p>
+				</li>
+			</ul>
+		</div>	
+
+	</div>
+</footer>
+
+<div class="copyrightText">
+	<p>Copyright 2023</p>
+</div>
+</html>
